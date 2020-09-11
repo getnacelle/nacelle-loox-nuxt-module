@@ -1,0 +1,42 @@
+{
+  "name": "@nacelle/nacelle-loox-nuxt-module",
+  "version": "0.0.1",
+  "description": "Adds Loox photo reviews to your Nuxt e-commerce project",
+  "main": "lib/module.js",
+  "scripts": {
+    "test": "jest ./module-tests/unit"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/getnacelle/nacelle-loox-nuxt-module.git"
+  },
+  "keywords": [
+    "nacelle",
+    "loox",
+    "shopify",
+    "reviews",
+    "e-commerce",
+    "ecommerce"
+  ],
+  "author": "Nacelle Inc.",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/getnacelle/nacelle-loox-nuxt-module/issues"
+  },
+  "homepage": "https://github.com/getnacelle/nacelle-loox-nuxt-module#readme",
+  "devDependencies": {
+    "@babel/core": "^7.11.6",
+    "@babel/preset-env": "^7.11.5",
+    "@vue/test-utils": "^1.0.5",
+    "babel-core": "^7.0.0-bridge.0",
+    "babel-jest": "^26.3.0",
+    "eslint": "^7.8.1",
+    "eslint-plugin-vue": "^7.0.0-beta.3",
+    "jest": "^26.4.2",
+    "lint-staged": "^10.3.0",
+    "nuxt": "^2.14.4",
+    "prettier": "^2.1.1",
+    "vue": "^2.6.12",
+    "vue-jest": "^3.0.6"
+  }
+}
