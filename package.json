@@ -3,6 +3,9 @@
   "version": "0.0.1",
   "description": "Adds Loox photo reviews to your Nuxt e-commerce project",
   "main": "lib/module.js",
+  "files": [
+    "/lib"
+  ],
   "scripts": {
     "test": "jest ./module-tests/unit"
   },
