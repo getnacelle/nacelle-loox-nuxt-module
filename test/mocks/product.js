@@ -1,4 +1,5 @@
 export default {
+  productId: '4915681296519',
   id: 'pepper-wood-apparel.myshopify.com::bianca-boots::en-us',
   handle: 'bianca-boots',
   locale: 'en-us',

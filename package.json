@@ -7,7 +7,7 @@
     "/lib"
   ],
   "scripts": {
-    "test": "jest ./module-tests/unit"
+    "test": "jest ./test"
   },
   "repository": {
     "type": "git",

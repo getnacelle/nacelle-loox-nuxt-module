@@ -1,21 +1,19 @@
 import { mount } from '@vue/test-utils'
-import ProductReviewsWidget from '../../lib/components/ProductReviewsWidget.vue'
+import ProductRatingWidget from '~/components/ProductRatingWidget.vue'
 import product from '../mocks/product'
 
-const wrapper = mount(ProductReviewsWidget, {
+const wrapper = mount(ProductRatingWidget, {
   propsData: { product }
 })
 
 const component = wrapper.find('.loox-rating')
 
-describe('ProductReviewsWidget', () => {
+describe('ProductRatingWidget', () => {
   it('should mount', () => {
     expect(component).not.toBeUndefined()
   })
-})
 
-describe('ProductReviewsWidget', () => {
   it('should decode the base64 product.pimSyncSourceProductId', () => {
-    expect(wrapper.vm.productId).toEqual('4915681296519')
+    expect(wrapper.vm.productId).toEqual(product.productId)
   })
 })
