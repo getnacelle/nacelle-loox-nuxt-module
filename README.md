@@ -36,7 +36,7 @@ SHOPIFY_DOMAIN=xxxxxxxxxxxxx
 Lastly, add the environment variable to the `nacelle` block of `nuxt.config.js`:
 
 ```javascript
-# nuxt.config.js
+// nuxt.config.js
 nacelle: {
   // ...other Nacelle config
   shopifyDomain: process.env.SHOPIFY_DOMAIN
