@@ -33,6 +33,16 @@ Then add your store's Shopify domain to your environment variables `.env` file:
 SHOPIFY_DOMAIN=xxxxxxxxxxxxx
 ```
 
+Lastly, add the environment variable to the `nacelle` block of `nuxt.config.js`:
+
+```javascript
+# nuxt.config.js
+nacelle: {
+  // ...other Nacelle config
+  shopifyDomain: process.env.SHOPIFY_DOMAIN
+}
+```
+
 ### Add the components to your Nacelle Storefront
 
 There are three components you can add to your Nacelle site: `<loox-product-rating />`, `<loox-product-reviews />`, and `<loox-all-reviews />`.
