@@ -38,7 +38,7 @@ Lastly, add the environment variable to the `nacelle` block of `nuxt.config.js`:
 ```javascript
 // nuxt.config.js
 nacelle: {
-  // ...other Nacelle config
+  // ...other Nacelle config,
   shopifyDomain: process.env.SHOPIFY_DOMAIN
 }
 ```
@@ -47,16 +47,16 @@ nacelle: {
 
 There are three components you can add to your Nacelle site: `<loox-product-rating />`, `<loox-product-reviews />`, and `<loox-all-reviews />`.
 
+**Loox Product Rating** will display a star rating for a product along with the number of reviews. Add this component to either `components/ProductDetails.vue` or `components/ProductCard.vue`. It accepts the product object as a prop:
+
+```html
+<loox-product-rating :product="product" />
+```
+
 **Loox Product Reviews** will display a grid of product reviews for a particular product. Add this component to `pages/products/_handle.vue` or anywhere you use products and pass the product object as a prop:
 
 ```html
 <loox-product-reviews :product="product" />
-```
-
-**Loox Product Rating** will display a star rating for a product along w/ the number of reviews. Add this component to either `components/ProductDetails.vue` or `components/ProductCard.vue`. It accepts the product object as a prop:
-
-```html
-<loox-product-rating :product="product" />
 ```
 
 **Loox All Reviews** will display a grid of all product reviews across multiple products. It accepts no props.
