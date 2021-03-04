@@ -1,6 +1,6 @@
 {
   "name": "@nacelle/nacelle-loox-nuxt-module",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "description": "Adds Loox photo reviews to your Nuxt e-commerce project",
   "main": "lib/module.js",
   "files": [
